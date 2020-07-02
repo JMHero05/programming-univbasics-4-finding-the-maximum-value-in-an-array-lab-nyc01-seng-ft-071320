@@ -1,4 +1,4 @@
-if the array index value is less than a variable holding previous array index value
+# if the array index value is less than a variable holding previous array index value
 
 def find_max_value(array)
   count = 0
