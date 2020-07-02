@@ -4,10 +4,7 @@ def find_max_value(array)
   count = 0
 
   while count < array.length do
-    num = array[count].value
-    if array[count].value >= num
-      num = max_num
-    end
+    array.sort
      count += 1
   end
 end
