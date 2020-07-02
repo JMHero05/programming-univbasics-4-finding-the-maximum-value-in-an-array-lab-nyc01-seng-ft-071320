@@ -2,7 +2,7 @@ if the array index value is less than a variable holding previous array index va
 
 def find_max_value(array)
   count = 0
-  
+
   while count < array.length do
     num = array[count].value
     if array[count].value >= num
